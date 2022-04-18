@@ -1,0 +1,32 @@
+body {
+  position: relative;
+}
+/*------------------- START NAVBAR -------------------*/
+#navhome {
+  padding: 0.5rem 1rem 0.5rem 1.5rem;
+}
+#navAbout {
+  padding: 0.5rem 1rem 0.5rem 1.5rem;
+}
+#navMenu {
+  padding: 0.5rem 1rem 0.5rem 1.5rem;
+}
+#navGallery {
+  padding: 0.5rem 1rem 0.5rem 1.5rem;
+}
+#navContact {
+  padding: 0.5rem 1rem 0.5rem 1.5rem;
+}
+#navLocation {
+  padding: 0.5rem 1rem 0.5rem 1.5rem;
+}
+/*------------------- START FOTTER -------------------*/
+#facebook {
+  padding-right: 0.5rem;
+}
+#twitter {
+  padding-right: 0.5rem;
+}
+#instagram {
+  padding-right: 0.5rem;
+}
