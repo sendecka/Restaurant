@@ -1,3 +1,37 @@
+h1 {
+  font-family: "Gentium Plus", serif !important;
+  font-size: 4rem !important;
+  color: #626262;
+}
+h2 {
+  font-family: "Raleway", sans-serif !important;
+  font-size: 1.5rem !important;
+  color: #626262;
+}
+h3 {
+  font-family: "Gentium Plus", serif !important;
+  font-size: 1.5rem !important;
+  color: #7199a5 !important;
+  text-shadow: 2px 2px 3px rgb(213, 213, 213);
+}
+#navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+#home {
+  margin-top: 5%;
+  background-image: url(./Tło.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-attachment: fixed;
+}
+
+#services,
+#section4,
+#menu {
+  background-color: #bccfd5;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .offer {
@@ -48,4 +82,27 @@ body {
 }
 #instagram {
   padding-right: 0.5rem;
+}
+
+/*------------------- Media  -------------------*/
+@media (max-width: 1400px) {
+  #home {
+    height: 50vh;
+  }
+  h1 {
+    font-size: 3rem !important;
+  }
+  h2 {
+    font-size: 1.1rem !important;
+  }
+  h3 {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media (max-width: 920px) {
+  #home {
+    margin-top: 12% !important;
+    height: 30vh !important;
+  }
 }
